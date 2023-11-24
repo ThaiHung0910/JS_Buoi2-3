@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS_Buoi2-3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Bài 1: Tính tiền lương nhân viên</h3>
+      <div class="form-group">
+        <label for="dayWork">Số ngày làm</label>
+        <input
+          type="number"
+          class="form-control"
+          name=""
+          id="dayWork"
+          aria-describedby="helpId"
+          placeholder="Vui lòng nhập số ngày làm"
+        />
+      </div>
+      <button class="btn btn-success salaryBtn">Tính tiền lương</button>
+      <div class="mt-3 p-5 bg-dark text-white salaryWork"></div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>Bài 2: Tính giá trị trung bình</h3>
+      <div class="form-group">
+        <label for="">Số thực</label>
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-sm-6">
+            <input
+              type="number"
+              class="form-control mt-3 number1"
+              name="realNumber"
+              id=""
+              aria-describedby="helpId"
+              placeholder="Vui lòng nhập số thực"
+            />
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <input
+              type="number"
+              class="form-control mt-3 number2"
+              name="realNumber"
+              id=""
+              aria-describedby="helpId"
+              placeholder="Vui lòng nhập số thực"
+            />
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <input
+              type="number"
+              class="form-control mt-3 number3"
+              name="realNumber"
+              id=""
+              aria-describedby="helpId"
+              placeholder="Vui lòng nhập số thực"
+            />
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <input
+              type="number"
+              class="form-control mt-3 number4"
+              name="realNumber"
+              id=""
+              aria-describedby="helpId"
+              placeholder="Vui lòng nhập số thực"
+            />
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <input
+              type="number"
+              class="form-control mt-3 number5"
+              name="realNumber"
+              id=""
+              aria-describedby="helpId"
+              placeholder="Vui lòng nhập số thực"
+            />
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-success averageBtn">
+        Tính giá trị trung bình
+      </button>
+      <div class="mt-3 p-5 bg-dark text-white average"></div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>Bài 3: Quy đổi tiền</h3>
+      <div class="form-group">
+        <label for="usd">Số tiền USD</label>
+        <input
+          type="number"
+          class="form-control"
+          name=""
+          id="usd"
+          aria-describedby="helpId"
+          placeholder="Vui lòng nhập số tiền USD"
+        />
+      </div>
+      <button class="btn btn-success changeMoneyBtn">Quy đổi tiền</button>
+      <div class="mt-3 p-5 bg-dark text-white moneyVND"></div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>Bài 4: Tính diện tích, chu vi hình chữ nhật</h3>
+      <div class="form-group">
+        <label for="widthRectangle">Chiều dài của hình chữ nhật</label>
+        <input
+          type="number"
+          class="form-control"
+          name=""
+          id="widthRectangle"
+          aria-describedby="helpId"
+          placeholder="Nhập chiều dài"
+        />
+        <label for="heightRectangle" class="mt-3"
+          >Chiều rộng của hình chữ nhật</label
+        >
+        <input
+          type="number"
+          class="form-control"
+          name=""
+          id="heightRectangle"
+          aria-describedby="helpId"
+          placeholder="Nhập chiều rộng"
+        />
+      </div>
+      <button class="btn btn-success caculateRectangle">Tính toán</button>
+      <div class="mt-3 p-5 bg-dark text-white rectangle"></div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>Bài 5: Tính tổng 2 ký số</h3>
+      <div class="form-group">
+        <label for="digitNumber">Số 2 chữ số</label>
+        <input
+          type="number"
+          class="form-control"
+          name=""
+          id="digitNumber"
+          aria-describedby="helpId"
+          placeholder="Vui lòng nhập số 2 chữ số"
+        />
+      </div>
+      <button class="btn btn-success sumBtn">Tính toán</button>
+      <div class="mt-3 p-5 bg-dark text-white tong2KySo"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
